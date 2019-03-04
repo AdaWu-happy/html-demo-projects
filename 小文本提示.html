@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <style>
+        .box{
+            width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid grey;
+        }
+        .textC{
+            text-align: center;
+        }
+        .form-title{
+            font-family: sans-serif, '黑体';
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgba(0,0,200,0.6);
+            background: rgba(0,0,200,0.3);
+            color: rgba(0,0,200,0.6);
+            box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+            border-radius: 10px;
+            padding: 3px 10px;
+            display: inline-block;
+            cursor:pointer;
+        }
+        .text{
+            font-size: 12px;
+            color: gray;
+        }
+        .row{
+            padding: 10px 0;
+            border-bottom: 1px solid gray;
+        }
+        .ipt{
+            display: block;
+            width: 100%;
+            font-size: 25px;
+            border: none;
+            outline: none;
+        }
+        .form-btn{
+            display: inline-block;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            box-shadow: 0 5px 5px lightgray;
+            border-radius: 25px;
+        }
+    </style>
+    <script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <form action="#" class="box">
+            <p class="textC">
+                <span class="form-title">留个联系方式吧，亲</span>
+            </p>
+
+            <div>
+                <text class="text">姓名</text>
+                <p class="row">
+                    <input type="text" placeholder="联系人" class="ipt" name="user">
+                </p>
+            </div>
+
+            <div>
+                <text class="text">电话</text>
+                <p class="row">
+                    <input type="tel" placeholder="电话" class="ipt" name="mobile">
+                </p>
+            </div>
+
+            <p class="textC">
+                <button type="submit" class="form-btn">登陆</button>
+            </p>
+        </form>
+    </div>
+
+    <script>
+        $(".text").hide();
+
+        $(".ipt").focus(function(){
+            $(this).parent().siblings(".text").show(500);
+        });
+
+        $('.ipt').blur(function(){
+            $(".text").hide()
+        });
+    </script>
+</body>
+</html>
