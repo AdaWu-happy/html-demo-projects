@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <style>
+        .box{
+            max-width: 800px;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 20px auto;
+            border: 1px solid gray;
+            box-shadow: 0px 0px 10px gray;
+        }
+        .form-box{
+            display: flex;
+            flex-direction: row;
+        }
+        .mtb-20{
+            margin: 20px 0;
+        }
+        .left,.right{flex: 1}
+        .input-box{
+            box-shadow: 1px 1px 2px #000;
+        }
+        .submit{
+            padding: 10px 30px;
+            border-radius: 10px;
+            background-color: #eee;
+        }
+        .ipt1:invalid {
+            border: 2px dashed red;
+        }
+
+        .ipt1:valid {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" class="box">
+        <div class="form-box">
+            <div class="left">
+                <div>
+                    <p>First name</p>
+                    <input type="text" class="input-box">
+                </div>
+
+                <div>
+                    <p>Last name</p>
+                    <input type="text" class="input-box">
+                </div>
+
+                <div>
+                    <p>Phone number</p>
+                    <input type="tel" class="input-box">
+                </div>
+
+                <div>
+                    <p>Email address</p>
+                    <input type="email" class="input-box">
+                </div>
+
+                <div>
+                    <p>Choose a password</p>
+                    <input type="password" class="input-box">
+                </div>
+
+                <div>
+                    <p>Confirm password</p>
+                    <input type="password" class="input-box">
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <p>Gender</p>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </div>
+
+                <div>
+                    <p>Date of birth</p>
+                    <input type="date" class="input-box">
+                </div>
+            </div>
+        </div>
+
+        <div class="mtb-20">
+            <input type="checkbox" name="read" id="read" checked>I have read and accept the Tems of Use
+        </div>
+
+        <button type="submit" class="submit">Sign Up</button>
+    </form>
+</body>
+</html>
