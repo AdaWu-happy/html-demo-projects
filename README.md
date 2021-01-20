@@ -5,3 +5,4 @@
 4. HTML5元素拖拽：[预览地址](https://adawu-happy.github.io/html-demo-projects/元素拖拽/index.html)
 5. HTML5音阶导航：[预览地址](https://adawu-happy.github.io/html-demo-projects/音阶导航/index.html)
 6. canvas图片不规则拖拽：[预览地址](https://adawu-happy.github.io/html-demo-projects/canvas图片不规则拖拽/canvas.html)
+7. canvas时钟：[预览地址](https://adawu-happy.github.io/html-demo-projects/canvas-clock/index.html)
