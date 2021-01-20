@@ -6,3 +6,5 @@
 5. HTML5音阶导航：[预览地址](https://adawu-happy.github.io/html-demo-projects/音阶导航/index.html)
 6. canvas图片不规则拖拽：[预览地址](https://adawu-happy.github.io/html-demo-projects/canvas图片不规则拖拽/canvas.html)
 7. canvas时钟：[预览地址](https://adawu-happy.github.io/html-demo-projects/canvas-clock/index.html)
+8. canvas绘制签名：[预览地址](https://adawu-happy.github.io/html-demo-projects/canvas绘制签名/index.html)
+9. canvas绘制曲线：[预览地址](https://adawu-happy.github.io/html-demo-projects/canvas绘制曲线/index.html)
