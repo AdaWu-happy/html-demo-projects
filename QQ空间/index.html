@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.js"></script>
+    <title>QQ空间登录</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="login-box">
+            <img src="images/logo.png" alt="" class="img-logo">
+        </div>
+        
+        <form action="#" class="form-box" id="form_box" method="POST" enctype="multipart/form-data">
+            <div>
+                <input type="text" placeholder="QQ号码/手机/邮箱" class="enter-ipt" name="id" id="id">
+            </div>
+            <div>
+                <input type="password" placeholder="请输入你的QQ密码" class="enter-ipt" name="pwd" id="pwd">
+            </div>
+        </form>
+
+        <div class="login-btn" type="submit" onclick="submitHandle()">登录</div>
+
+        <div class="feedback-box">
+            <span>忘了密码？</span>
+            <span>注册新账号</span>
+        </div>
+    </div>
+    <script>
+        function submitHandle() {
+            console.log('ovo------')
+            // $.ajax({
+            //     type: "POST",
+            //     url: "",
+            //     data: { id: $("#id").val(), pwd: $("#pwd").val() },
+            //     dataType: "json",
+            //     success: function (data) {
+            //         console.log('data')
+            //     },
+            //     error: function (e) {
+            //         alert("错误");
+            //     }
+            // });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body{
+    font-size: 16px;
+    background-color: #eee;
+}
+.content{
+    margin: 0 auto;
+    width: 320px;
+}
+.login-box{
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.img-logo{
+    display: block;
+    margin: 0 auto 20px;
+    width: 95px;
+    height: 100px;
+}
+.form-box{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.enter-ipt{
+    display: block;
+    width: 100%;
+    /* width: 273px; */
+    height: 44px;
+    color: #000;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    -webkit-appearance: none;
+}
+.login-btn{
+    width: 290px;
+    height: 44px;
+    line-height: 44px;
+    background: #146fdf;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+}
+.feedback-box{
+    margin: auto;
+    display: flex;
+    width: 290px;
+    justify-content: space-between;
+    color: #246183;
+    font-size: 14px;
+}
