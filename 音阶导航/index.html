@@ -111,6 +111,11 @@
 						break;
 					}
 					audio.play()
+					
+					setTimeout(() => {
+					  audio.pause()
+					  audio.load()
+					}, 10)
 				})
 			}
 		</script>
