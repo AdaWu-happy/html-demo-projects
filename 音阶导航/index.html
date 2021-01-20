@@ -34,7 +34,7 @@
 			.nav>li>div.down{
 				width: 98px;
 				height: 100%;
-				background-color: aliceblue;
+				background-color: rgba(255,255,255,0.3);
 				transition: 1s;
 			}
 			.nav>li:hover .down{
@@ -49,6 +49,7 @@
 	<body>
 		<div class="wrap">
 			<h5>\(^o^)/~ HTML5音阶导航 2021-01-20 修改</h5>
+			<p>点击菜单选项，可以触发不同声效。</p>
 			<audio src="" >
 				当前浏览器不支持audio
 			</audio>
@@ -83,7 +84,7 @@
 			var Lis = document.querySelectorAll('.nav>li')
 			var audio = document.querySelector('audio')
 			for(var i = 0 ;i<Lis.length;i++){
-				Lis[i].addEventListener('mouseenter',function(){
+				Lis[i].addEventListener('click',function(){
 					var name = this.getAttribute("data-name")
 					switch(name){
 						case 'a':
@@ -111,11 +112,6 @@
 						break;
 					}
 					audio.play()
-					
-					setTimeout(() => {
-					  audio.pause()
-					  audio.load()
-					}, 10)
 				})
 			}
 		</script>
